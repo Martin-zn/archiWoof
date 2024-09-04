@@ -1,0 +1,28 @@
+.pet-form {
+    padding: 20px;
+  }
+  
+  .pet-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .upload-button {
+    --background: #3880ff;
+    --color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  ion-item {
+    margin-bottom: 15px;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+    --background: #10dc60;
+    --color: white;
+  }

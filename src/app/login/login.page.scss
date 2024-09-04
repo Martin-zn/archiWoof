@@ -1,0 +1,32 @@
+
+.input-container {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  ion-input {
+    width: 100%;
+    --background: #222; /* Fondo oscuro para inputs */
+    --color: #ffffff; /* Texto blanco dentro del input */
+    --placeholder-color: #888; /* Color para el placeholder */
+    }
+  
+  .login-button {
+    margin-top: 20px;
+    width: 100%;
+
+  }
+  
+  ion-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  

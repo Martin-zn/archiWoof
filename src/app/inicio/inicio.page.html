@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>ArchiWoof</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div>
+    <h2 class="title">Tus mascotas</h2>
+  </div>
+
+  <ion-card>
+    <img class="card-img" alt="Silhouette of mountains" src="assets/imgs/perro.jpg" />
+    <ion-card-header>
+      <ion-card-title>Bola de nieve</ion-card-title>
+      <ion-card-subtitle>mi mascota</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Pequeño pug, inquieto pero obediente, le gusta caminar por el pasto y hay que tener cuidado con su interaccion con otros perros, ya que casi mata a un rotwailer
+    </ion-card-content>
+  </ion-card>
+  <div class="button-container">
+    <ion-button [routerLink]="['/form-mascotas']" class="button1" shape="round">Agregar otra mascota</ion-button>
+    <ion-button class="button1" shape="round">Solicitar un paseo</ion-button>
+  </div>
+</ion-content>
