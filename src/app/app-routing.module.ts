@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'form-mascotas',
     loadChildren: () => import('./form-mascotas/form-mascotas.module').then( m => m.FormMascotasPageModule)
   },
+  {
+    path: 'paseo',
+    loadChildren: () => import('./paseo/paseo.module').then( m => m.PaseoPageModule)
+  },
 ];
 
 @NgModule({
