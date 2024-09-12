@@ -7,13 +7,11 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-img class="logo" src="assets/imgs/dog2.png" alt="The Wisconsin State Capitol building in Madison, WI at night"/>
-  
+  <ion-img class="logo" src="assets/imgs/dog2.png" alt="The Wisconsin State Capitol building in Madison, WI at night" />
 
   <div class="button-container">
-    <ion-button [routerLink]="['/login']" class="first-button" expand="block">Dueño</ion-button>
-    <ion-button [routerLink]="['/login']" class="first-button" expand="block">Paseador</ion-button>
+    <!-- Mantén el routerLink para la navegación, pero añadimos el evento de click para la animación -->
+    <ion-button  class="first-button animacion1" expand="block" (click)="func1()">Dueño</ion-button>
+    <ion-button  class="first-button animacion2" expand="block" (click)="func2()">Paseador</ion-button>
   </div>
-
-
 </ion-content>
